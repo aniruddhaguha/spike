@@ -1,3 +1,4 @@
+const transmission = "a7XZtGeo9Bc";
 function analyzeFluxEvents(transmission) {
   let count = 0;
 
@@ -13,6 +14,4 @@ function analyzeFluxEvents(transmission) {
     return "Stream stable: no dominant flux events recorded.";
   }
 }
-
-const transmission = "a7XZtGeo9Bc";
 console.log(analyzeFluxEvents(transmission));
